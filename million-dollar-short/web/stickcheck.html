@@ -1,0 +1,22 @@
+<!doctype html><html><body style="margin:0;background:#e8774a"><canvas id="c" width="2400" height="2200"></canvas>
+<script type="module">
+import { drawStick } from "./stick.js";
+const g = document.getElementById("c").getContext("2d");
+const HERO = { shirt: "#f2b632", hat: "beanie", hatCol: "#2f9e9a", bobble: "#f4f1ea" };
+const COP = { shirt: "#3f63b5", hat: "police", badge: 1, tie: "#1f2d5a" };
+const OLD = { shirt: "#9a6b4a", hat: "old", glasses: 1, moustache: "#f2f1ee", cardigan: 1 };
+const N1 = { shirt: "#8a5ac9", hat: "curly", hair: "#2a2233" };
+const N2 = { shirt: "#e0607a", hat: "bun", hair: "#5a3322" };
+const list = [
+ [HERO, { expr: "shock", legs: "kneel" }], [HERO, { expr: "greedy", prop: "bagHold", armL: "hug", armR: "hug" }],
+ [HERO, { expr: "happy", legs: "dance", phase: 0.25, armL: "up", armR: "dance" }], [HERO, { expr: "scared", blanket: "#2f8f8a", clutch: 1, armL: null, armR: null }],
+ [HERO, { expr: "sly", shades: 1, armR: "fan", prop: "fan", armL: "hip" }], [HERO, { expr: "smile", armR: "point", look: 0 }],
+ [HERO, { expr: "grin", armL: "sign", armR: "sign", prop: "signs" }, true], [HERO, { expr: "happy", prop: "note", armL: "hold", armR: "hold" }],
+ [COP, { expr: "shock", armL: "hang", armR: "hang" }], [OLD, { expr: "cry", armR: "cane", prop: "cane", armL: "give" , prop2: 1}],
+ [OLD, { expr: "happy", armR: "give", prop: "envelope" }], [N1, { expr: "shock", look: -1, armL: "mouth" }],
+ [N2, { expr: "worried", look: -1, armL: "phone", prop: "phone" }], [HERO, { expr: "sleep", blanket: "#2f8f8a", tilt: 12 }],
+ [HERO, { expr: "shock", legs: "trip", armL: "fall", armR: "up", lean: 18 }], [HERO, { expr: "worried", look: -1, legs: "kneel", armR: "shake", shakeHand: 1 }],
+];
+list.forEach(([o, s, wide], i) => { g.save(); const x = (i % 8) * 300, y = Math.floor(i / 8) * 1100; g.translate(x, y); g.scale(0.5, 0.5); if (wide) { g.translate(0,0);} drawStick(g, o, s); g.restore(); });
+window.done = true;
+</script></body></html>

@@ -1,0 +1,167 @@
+[
+ {
+  "text": "You just found one million dollars.",
+  "start": 0.09,
+  "end": 2.33,
+  "f0": 3,
+  "f1": 70,
+  "segments": [
+   0,
+   1
+  ]
+ },
+ {
+  "text": "Nobody saw you.",
+  "start": 2.7,
+  "end": 3.59,
+  "f0": 81,
+  "f1": 108,
+  "segments": [
+   1,
+   2
+  ]
+ },
+ {
+  "text": "What do you do?",
+  "start": 3.97,
+  "end": 4.53,
+  "f0": 119,
+  "f1": 136,
+  "segments": [
+   2,
+   3
+  ]
+ },
+ {
+  "text": "Keep it,",
+  "start": 4.97,
+  "end": 5.34,
+  "f0": 149,
+  "f1": 160,
+  "segments": [
+   3,
+   4
+  ]
+ },
+ {
+  "text": "and in most countries that's theft.",
+  "start": 5.8,
+  "end": 7.9,
+  "f0": 174,
+  "f1": 237,
+  "segments": [
+   4,
+   6
+  ]
+ },
+ {
+  "text": "Big cash spending gets noticed fast.",
+  "start": 8.22,
+  "end": 10.66,
+  "f0": 247,
+  "f1": 320,
+  "segments": [
+   6,
+   8
+  ]
+ },
+ {
+  "text": "Rich today\u2026 scared every night.",
+  "start": 11.0,
+  "end": 13.45,
+  "f0": 330,
+  "f1": 404,
+  "segments": [
+   8,
+   10
+  ]
+ },
+ {
+  "text": "Return it,",
+  "start": 13.81,
+  "end": 14.31,
+  "f0": 414,
+  "f1": 429,
+  "segments": [
+   10,
+   11
+  ]
+ },
+ {
+  "text": "and the owner gets everything back.",
+  "start": 14.69,
+  "end": 16.39,
+  "f0": 441,
+  "f1": 492,
+  "segments": [
+   11,
+   12
+  ]
+ },
+ {
+  "text": "Some places even give finders a reward.",
+  "start": 16.69,
+  "end": 18.78,
+  "f0": 501,
+  "f1": 563,
+  "segments": [
+   12,
+   13
+  ]
+ },
+ {
+  "text": "Less money,",
+  "start": 19.13,
+  "end": 19.83,
+  "f0": 574,
+  "f1": 595,
+  "segments": [
+   13,
+   14
+  ]
+ },
+ {
+  "text": "but no fear.",
+  "start": 20.12,
+  "end": 20.95,
+  "f0": 604,
+  "f1": 628,
+  "segments": [
+   14,
+   15
+  ]
+ },
+ {
+  "text": "Now be honest:",
+  "start": 21.36,
+  "end": 22.15,
+  "f0": 641,
+  "f1": 665,
+  "segments": [
+   15,
+   16
+  ]
+ },
+ {
+  "text": "what would YOU do?",
+  "start": 22.42,
+  "end": 23.33,
+  "f0": 673,
+  "f1": 700,
+  "segments": [
+   16,
+   17
+  ]
+ },
+ {
+  "text": "Comment KEEP or RETURN\u2026 because you just found one million dollars.",
+  "start": 23.61,
+  "end": 28.46,
+  "f0": 708,
+  "f1": 854,
+  "segments": [
+   17,
+   19
+  ]
+ }
+]
